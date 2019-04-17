@@ -3,6 +3,10 @@ header > *, main > *, footer > * {
   margin: 0 auto;
 }
 
+a:hover {
+  border-bottom: 1px solid;
+}
+
 .navbar-menu .navbar-item {
   text-transform: uppercase;
 }
@@ -17,4 +21,5 @@ header > *, main > *, footer > * {
 
 .footer svg {
   filter: invert(50%);
+  margin-left: .5rem;
 }
