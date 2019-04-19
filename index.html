@@ -28,49 +28,87 @@
     
   </div>
 </nav>
-<header>
+</header>
 
 <main>
 <div class="container">
   
 <div id="intro">
-  IMDbPY is a Python package useful to retrieve and manage the data of the IMDb movie database about movies, people,
-  characters and companies.
+  IMDbPY is a Python package for retrieving and managing the data of the IMDb movie database about movies, people, and companies.
 </div>
 
 <p>
-  <button href="/downloads" class="button primary-button">Downloads</a>
-</p>
-
-<p>
-  <button href="https://imdbpy.readthedocs.io/" class="secondary-button">Read the Docs</button>
+  <a href="/downloads" class="button primary-button">Downloads</a>
+  <a href="https://imdbpy.readthedocs.io/" class="button secondary-button">Read the Docs</a>
 </p>
 
 <div>
   <ul>
-    <li> Written in pure Python 3.</li>
-    <li> Platform-independent.</li>
-    <li> Can retrieve data from both the IMDb's web server and a local copy of the whole database.</li>
-    <li> Released under the terms of the <a href="#">GPL 2 license.</a></li>
+    <li>Written in pure Python 3.</li>
+    <li>Platform-independent.</li>
+    <li>Can retrieve data from both the IMDb's web server and a local copy of the whole database.</li>
+    <li>Released under the terms of the <a href="https://github.com/alberanid/imdbpy/blob/master/docs/LICENSE.txt">GPL 2 license.</a></li>
     <li>A simple API.</li>
-    <li> IMDbPY is used by many other projects. <a href="#">Curious about that?</a></li>
+    <li>IMDbPY is used by many other projects. <a href="#">Curious about that?</a></li>
   </ul>
 </div>
 
+<section>
+  <h2>Code example</h2>
 <pre>
 <code class="microlight">
-# create and instance of the IMDb class
 from imdb import IMDb
+
+# create an instance of the IMDb class
 ia = IMDb()
 
 # get a movie and print its director(s)
 the_matrix = ia.get_movie('0133093')
 print(the_matrix['director'])
 
-# show all the information sets avaiable for Movie objects
+# show all information sets avaiable for movies
 print(ia.get_movie_infoset())
 </code>
 </pre>
+</section>
+
+<section>
+  <h1>How to contribute</h1>
+  <p>Do you like this project? You can help by:</p>
+  <ul>
+    <li>
+      <a href="http://sourceforge.net/donate/index.php?group_id=105998" target="_blank">Making a donation
+        <img src="/images/project-support.jpg" alt="Support the IMDbPY project">
+      </a>
+    </li>
+    <li>Spreading the word!</li>
+    <li>
+      <a href="/development/index.html#contribute">Contribute development</a>.
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h1>News</h1>
+
+  <article class="block">
+    <header>
+      <time datetime="2014-05-04">2014 May 04</time>
+      <h2>IMDbPY 5.0 released</h2>
+    </header>
+    <p>After a very long time, IMDbPY 5.0 is here!</p>
+    <p>In this release: may fixes to stay aligned with the IMDb web site. As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>.
+      <a href="docs/Changelog.txt">Changelog for the 5.0 version</a>.</p>
+  </article>
+
+  <article class="block">
+    <header>
+      <time datetime="2014-01-25">2014 Jan 25</time>
+      <h2>New website</h2>
+    </header>
+    <p>We're glad to have a new wonderful web site, kindly created by <b>Alberto Malagoli</b> of <a href="http://studiodeep.it/">Studio DE&P</a>.  Thanks, Alberto!</p>
+  </article>
+</section>
 
 </div>
 </main>
@@ -83,6 +121,27 @@ print(ia.get_movie_infoset())
       <a href="#" class="footer-item footer-icon" id="github"></a></div>
   </div>
 </footer>
+
+<!-- Google Analytics -->
+<script>
+    var _gaq = _gaq || [];
+    _gaq.push([
+        '_setAccount', 'UA-9856159-1'
+    ]);
+    _gaq.push([
+        '_trackPageview'
+    ]);
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol
+                ? 'https://ssl'
+                : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
 
 </body>
 

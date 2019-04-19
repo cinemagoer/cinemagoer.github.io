@@ -79,10 +79,11 @@ a:active {
     color: #C99D00;
 }
 
-button {
+.button {
     height: 2.5em;
     padding: 0 1.25rem;
-    display: flex;
+    margin-right: 1rem;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     border-radius: 2px;
@@ -181,7 +182,7 @@ nav {
     font-size: 1.5em;
     color: #E6E6E6;
     position: relative;
-    margin: 4rem 0 2rem 0;
+    margin: 2rem 0;
 }
 
 #intro:before {
@@ -195,9 +196,8 @@ nav {
     background: #4D4D4D;
 }
 
-footer {
-    background: #333333;
-    padding: 2rem 0;
+header, main, footer {
+    padding: 0 1.5rem 2rem 1.5rem;
 }
 
 #footer-container {
@@ -219,17 +219,17 @@ footer {
 }
 
 #twitter {
-    background-image: url("../images/twitter.png");
+    background-image: url("/images/twitter.png");
 }
 
 #twitter:hover {
-    background-image: url("../images/twitter-hightlighted.png");
+    background-image: url("/images/twitter-hightlighted.png");
 }
 
 #github {
-    background-image: url("../images/github.png");
+    background-image: url("/images/github.png");
 }
 
 #github:hover {
-    background-image: url("../images/github-highlighted.png");
+    background-image: url("/images/github-highlighted.png");
 }
