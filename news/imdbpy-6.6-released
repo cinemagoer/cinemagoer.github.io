@@ -3,14 +3,14 @@
 
 <head>
   <meta charset="utf-8">
-  <title>IMDbPY — Ecosystem</title>
+  <title>IMDbPY — IMDbPY 6.6 released</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="shortcut icon" href="/images/imdbpyico16x16.ico">
   <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.3.1/dist/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:400,700">
-  <link rel="stylesheet" href="../static/main.css"/>
+  <link rel="stylesheet" href="../../static/main.css"/>
 </head>
 
 <body>
@@ -18,15 +18,15 @@
 <header>
 <nav aria-label="main navigation">
   <div class="container">
-    <a id="logo" class="nav-item" href="../">IMDbPY</a>
+    <a id="logo" class="nav-item" href="../../">IMDbPY</a>
     
-    <a class="nav-item" href="../downloads/">Downloads</a>
+    <a class="nav-item" href="../../downloads/">Downloads</a>
     
-    <a class="nav-item" href="../support/">Support</a>
+    <a class="nav-item" href="../../support/">Support</a>
     
-    <a class="nav-item" href="../development/">Development</a>
+    <a class="nav-item" href="../../development/">Development</a>
     
-    <a class="nav-item nav-item-active" href="../ecosystem/">Ecosystem</a>
+    <a class="nav-item" href="../../ecosystem/">Ecosystem</a>
     
   </div>
 </nav>
@@ -35,6 +35,9 @@
 <main>
 <div class="container">
   
+In this release multiple parsers were fixed, problems with the certificates were solved, and AKAs from the new dataset get parsed.
+As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>. <a href="https://github.com/alberanid/imdbpy/blob/master/docs/Changelog.rst">Changelog</a>.
+
 
 
 </div>
