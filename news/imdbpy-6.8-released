@@ -10,7 +10,7 @@
   <link rel="icon" type="image/x-icon" href="/images/imdbpyico16x16.ico">
   <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.3.1/dist/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:400,700">
-  <link rel="stylesheet" href="../static/main.css">
+  <link rel="stylesheet" href="../../static/main.css">
 </head>
 
 <body>
@@ -19,15 +19,15 @@
   <header>
     <nav aria-label="main navigation">
       <div class="container">
-        <a id="logo" class="nav-item" href="../">IMDbPY</a>
+        <a id="logo" class="nav-item" href="../../">IMDbPY</a>
         
-        <a class="nav-item" href="../downloads/">Downloads</a>
+        <a class="nav-item" href="../../downloads/">Downloads</a>
         
-        <a class="nav-item" href="../support/">Support</a>
+        <a class="nav-item" href="../../support/">Support</a>
         
-        <a class="nav-item" href="../development/">Development</a>
+        <a class="nav-item" href="../../development/">Development</a>
         
-        <a class="nav-item" href="../ecosystem/">Ecosystem</a>
+        <a class="nav-item" href="../../ecosystem/">Ecosystem</a>
         
       </div>
     </nav>
@@ -36,29 +36,9 @@
   <main>
     <div class="container">
       
-
-
-
-
-<section>
-  <h1>News</h1>
-  <div class="news">
-  
-    
-  <article class="block">
-    <header>
-      <h2>IMDbPY 6.8 released</h2>
-      <time datetime="2019-07-20">Jul 20, 2019</time>
-    </header>
-    <h3>IMDbPY 6.8 is here!</h3>
-    <p><p>In the release 6.8 (codename "Apollo 11") of IMDbPY, multiple parsers were added and fixed; the new <code>search_movie_advanced</code> method allows advanced movie searches. As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>.</p>
+<p>In the release 6.8 (codename "Apollo 11") of IMDbPY, multiple parsers were added and fixed; the new <code>search_movie_advanced</code> method allows advanced movie searches. As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>.</p>
 <p><a href="https://github.com/alberanid/imdbpy/blob/master/docs/Changelog.rst">Changelog</a></p>
-</p>
-  </article>
 
-  
-  </div>
-</section>
 
     </div>
   </main>

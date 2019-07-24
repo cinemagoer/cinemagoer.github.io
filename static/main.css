@@ -71,11 +71,11 @@ a {
     color: #F5C518;
 }
 
-a:hover {
+a:hover:not(.button) {
     color: #E5B60B;
 }
 
-a:active {
+a:active:not(.button) {
     color: #C99D00;
 }
 
@@ -119,6 +119,14 @@ a:active {
 .secondary-button:active {
     border: 1px solid #C99D00;
     color: #C99D00;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+a.primary-button:hover {
+    color: #333333;
 }
 
 .container {
@@ -232,4 +240,22 @@ header, main, footer {
 
 #github:hover {
     background-image: url("/images/github-highlighted.png");
+}
+
+.news article {
+  margin-top: 2em;
+  padding: 1rem;
+  background-color: #444444;
+}
+
+.news header {
+  padding: 0;
+}
+
+.news h2 {
+  margin-top: 0;
+}
+
+.news h3 {
+  margin-top: 1em;
 }

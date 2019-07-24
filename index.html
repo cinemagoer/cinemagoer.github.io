@@ -1,42 +1,43 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title>IMDbPY — Welcome to IMDbPY!</title>
-  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="shortcut icon" href="/images/imdbpyico16x16.ico">
+  <title>IMDbPY </title>
+
+  <link rel="icon" type="image/x-icon" href="/images/imdbpyico16x16.ico">
   <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.3.1/dist/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:400,700">
-  <link rel="stylesheet" href="./static/main.css"/>
+  <link rel="stylesheet" href="./static/main.css">
 </head>
 
 <body>
-<a href="https://github.com/alberanid/imdbpy"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
-<header>
-<nav aria-label="main navigation">
-  <div class="container">
-    <a id="logo" class="nav-item nav-item-active" href="./">IMDbPY</a>
-    
-    <a class="nav-item" href="./downloads/">Downloads</a>
-    
-    <a class="nav-item" href="./support/">Support</a>
-    
-    <a class="nav-item" href="./development/">Development</a>
-    
-    <a class="nav-item" href="./ecosystem/">Ecosystem</a>
-    
-  </div>
-</nav>
-</header>
+  <a href="https://github.com/alberanid/imdbpy"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
 
-<main>
-<div class="container">
-  
+  <header>
+    <nav aria-label="main navigation">
+      <div class="container">
+        <a id="logo" class="nav-item nav-item-active" href="./">IMDbPY</a>
+        
+        <a class="nav-item" href="./downloads/">Downloads</a>
+        
+        <a class="nav-item" href="./support/">Support</a>
+        
+        <a class="nav-item" href="./development/">Development</a>
+        
+        <a class="nav-item" href="./ecosystem/">Ecosystem</a>
+        
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      
 <div id="intro">
-  IMDbPY is a Python package for retrieving and managing the data of the IMDb movie database about movies, people, and companies.
+  IMDbPY is a Python package for retrieving and managing the data of the IMDb movie database about movies and people.
 </div>
 
 <p>
@@ -44,20 +45,18 @@
   <a href="https://imdbpy.readthedocs.io/" class="button secondary-button">Read the Docs</a>
 </p>
 
-<div>
-  <ul>
-    <li>Written in pure Python 3.</li>
-    <li>Platform-independent.</li>
-    <li>Can retrieve data from both the IMDb's web server and a local copy of the whole database.</li>
-    <li>Released under the terms of the <a href="https://github.com/alberanid/imdbpy/blob/master/docs/LICENSE.txt">GPL 2 license.</a></li>
-    <li>A simple API.</li>
-    <li>IMDbPY is used by many other projects. <a href="#">Curious about that?</a></li>
-  </ul>
-</div>
+<ul>
+  <li>Written in pure Python 3.</li>
+  <li>Platform-independent.</li>
+  <li>Can retrieve data from both the IMDb's web server and a local copy of the whole database.</li>
+  <li>Released under the terms of the <a href="https://github.com/alberanid/imdbpy/blob/master/docs/LICENSE.txt">GPL 2 license.</a></li>
+  <li>A simple API.</li>
+  <li>IMDbPY is used by many other projects. <a href="#">Curious about that?</a></li>
+</ul>
 
 <section>
   <h2>Code example</h2>
-<pre>
+  <pre>
 <code class="microlight">
 from imdb import IMDb
 
@@ -66,12 +65,13 @@ ia = IMDb()
 
 # get a movie and print its director(s)
 the_matrix = ia.get_movie('0133093')
-print(the_matrix['director'])
+for director in the_matrix['directors']:
+    print(director['name'])
 
 # show all information sets avaiable for movies
 print(ia.get_movie_infoset())
 </code>
-</pre>
+  </pre>
 </section>
 
 <section>
@@ -79,52 +79,54 @@ print(ia.get_movie_infoset())
   <p>Do you like this project? You can help by:</p>
   <ul>
     <li>
-      <a href="http://sourceforge.net/donate/index.php?group_id=105998" target="_blank">Making a donation
+      <a href="http://sourceforge.net/donate/index.php?group_id=105998" target="_blank">Making a donation.
         <img src="/images/project-support.jpg" alt="Support the IMDbPY project">
       </a>
     </li>
     <li>Spreading the word!</li>
     <li>
-      <a href="/development/index.html#contribute">Contribute development</a>.
+      <a href="/development/index.html#contribute">Contributing to development.</a>
     </li>
   </ul>
 </section>
+
+<script src="https://unpkg.com/microlight@0.0.7/microlight.js"></script>
 
 
 
 
 <section>
-  <h1>News</h2>
+  <h1>News</h1>
+  <div class="news">
   
     
   <article class="block">
     <header>
-      <time datetime="2018-08-05">Aug 5, 2018</time>
-      <h2>IMDbPY 6.6 released</h2>
+      <h2>IMDbPY 6.8 released</h2>
+      <time datetime="2019-07-20">Jul 20, 2019</time>
     </header>
-    <p>IMDbPY 6.6 is here!</p>
-    <p>In this release multiple parsers were fixed, problems with the certificates were solved, and AKAs from the new dataset get parsed.
-As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>. <a href="https://github.com/alberanid/imdbpy/blob/master/docs/Changelog.rst">Changelog</a>.
-
+    <h3>IMDbPY 6.8 is here!</h3>
+    <p><p>In the release 6.8 (codename "Apollo 11") of IMDbPY, multiple parsers were added and fixed; the new <code>search_movie_advanced</code> method allows advanced movie searches. As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>.</p>
+<p><a href="https://github.com/alberanid/imdbpy/blob/master/docs/Changelog.rst">Changelog</a></p>
 </p>
   </article>
 
   
+  </div>
 </section>
 
-<p><a href="/news/">All news</a></p>
 
-</div>
-</main>
+    </div>
+  </main>
 
-<footer>
-  <div class="container">
-    <div id="footer-container">
-      <div class="footer-item">Website designed by <a href="https://albemala.me/">albemala</a></div>
-      <a href="#" class="footer-item footer-icon" id="twitter"></a>
-      <a href="#" class="footer-item footer-icon" id="github"></a></div>
-  </div>
-</footer>
+  <footer>
+    <div class="container">
+      <div id="footer-container">
+        <div class="footer-item">Website designed by <a href="https://albemala.me/">albemala</a></div>
+        <a href="#" class="footer-item footer-icon" id="twitter"></a>
+        <a href="#" class="footer-item footer-icon" id="github"></a></div>
+    </div>
+  </footer>
 
 <!-- Google Analytics -->
 <script>
@@ -146,7 +148,6 @@ As always, IMDbPY is looking for developers; if you want to contribute, <a href=
         s.parentNode.insertBefore(ga, s);
     })();
 </script>
-
 </body>
 
 </html>
