@@ -34,7 +34,7 @@
   <main class="container">
     
 <p>In the release 6.8 (codename "Apollo 11") of IMDbPY, multiple parsers were added and fixed; the new <code>search_movie_advanced</code> method allows advanced movie searches. As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>.</p>
-<p><a href="https://raw.githubusercontent.com/alberanid/imdbpy/master/CHANGELOG.txt">Changelog</a></p>
+<p><a href="https://imdbpy.readthedocs.io/en/latest/Changelog.html">Changelog</a></p>
 
 
   </main>
