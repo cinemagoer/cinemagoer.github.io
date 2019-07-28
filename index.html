@@ -55,11 +55,9 @@
     </p>
 
     <ul>
-      <li>Written in pure Python 3.</li>
-      <li>Platform-independent.</li>
+      <li>Platform-independent: written in pure Python 3, with a simple API.</li>
       <li>Can retrieve data from both the IMDb's web server and a local copy of the whole database.</li>
-      <li>Released under the terms of the <a href="https://raw.githubusercontent.com/alberanid/imdbpy/master/LICENSE.txt">GPL 2 license.</a></li>
-      <li>A simple API.</li>
+      <li>Released under the terms of the <a href="https://raw.githubusercontent.com/alberanid/imdbpy/master/LICENSE.txt">GPL 2 license or later.</a></li>
       <li>IMDbPY is used by many other projects. <a href="#">Curious about that?</a></li>
     </ul>
   </div>
@@ -79,7 +77,10 @@ the_matrix = ia.get_movie('0133093')
 for director in the_matrix['directors']:
     print(director['name'])
 
-# show all information sets avaiable for movies
+# show all information that are currently available for a movie
+print(sorted(the_matrix.keys()))
+
+# show all information sets that can be fetched for a movie
 print(ia.get_movie_infoset())
 </code>
   </pre>
@@ -90,9 +91,6 @@ print(ia.get_movie_infoset())
   <div class="content">
   <p>Do you like this project? You can help by:</p>
   <ul>
-    <li>
-      <a href="http://sourceforge.net/donate/index.php?group_id=105998" target="_blank">Making a donation.</a>
-    </li>
     <li>Spreading the word!</li>
     <li>
       <a href="/development/">Contributing to development.</a>
@@ -116,7 +114,7 @@ print(ia.get_movie_infoset())
         <h2 class="title is-size-4">IMDbPY 6.8 released</h2>
         <time datetime="2019-07-20">Jul 20, 2019</time>
       </header>
-      <h3 class="subtitle is-size-5">IMDbPY 6.8 is here!</h3>
+      <h3 class="subtitle is-size-5"></h3>
       <div class="content">
         <p>In the release 6.8 (codename "Apollo 11") of IMDbPY, multiple parsers were added and fixed; the new <code>search_movie_advanced</code> method allows advanced movie searches. As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>.</p>
 <p><a href="https://imdbpy.readthedocs.io/en/latest/Changelog.html">Changelog</a></p>
