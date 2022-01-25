@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>IMDbPY — IMDbPY 2021-04-18 released</title>
+  <title>Cinemagoer — IMDbPY 2021-04-18 released</title>
 
-  <link rel="icon" type="image/x-icon" href="../static/images/imdbpyico16x16.ico">
-  <link rel="stylesheet" href="../static/imdbpy.css?h=fcaa2630">
+  <link rel="icon" type="image/x-icon" href="../../static/images/imdbpyico16x16.ico">
+  <link rel="stylesheet" href="../../static/imdbpy.css?h=9d81f1b1">
 </head>
 
 <body>
@@ -17,23 +17,23 @@
       <div class="level container">
         <div class="level-left">
           <div class="level-item">
-            <a id="logo" href="../">IMDbPY</a>
+            <a id="logo" href="../../">Cinemagoer</a>
           </div>
           
           <div class="level-item">
-            <a href="../downloads/">Downloads</a>
+            <a href="../../downloads/">Downloads</a>
           </div>
           
           <div class="level-item">
-            <a href="../support/">Support</a>
+            <a href="../../support/">Support</a>
           </div>
           
           <div class="level-item">
-            <a href="../development/">Development</a>
+            <a href="../../development/">Development</a>
           </div>
           
           <div class="level-item">
-            <a href="../ecosystem/">Ecosystem</a>
+            <a href="../../ecosystem/">Ecosystem</a>
           </div>
           
         </div>
