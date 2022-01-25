@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Cinemagoer — IMDbPY 2021-04-18 released</title>
+  <title>Cinemagoer — IMDbPY renamed to Cinemagoer</title>
 
   <link rel="icon" type="image/x-icon" href="../../static/images/imdbpyico16x16.ico">
   <link rel="stylesheet" href="../../static/imdbpy.css?h=9d81f1b1">
@@ -43,8 +43,8 @@
 
   <main class="container">
     
-<p>In the release 2021-04-18 (codename "Black Sails") of IMDbPY, multiple parsers were added and fixed. As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>.</p>
-<p>For more details see the <a href="https://imdbpy.readthedocs.io/en/latest/Changelog.html">latest changelog</a>, including unreleased changes.</p>
+<p>New year, new name: after almost 18 years, we decided to change the name of the project: welcome Cinemagoer!</p>
+<p>For more details see the <a href="https://cinemagoer.readthedocs.io/en/latest/Changelog.html">latest changelog</a>, including unreleased changes.</p>
 
 
   </main>
