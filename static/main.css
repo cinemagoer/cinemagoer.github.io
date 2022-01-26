@@ -219,13 +219,13 @@ a.button.secondary:hover {
 }
 
 p.more {
-  font-size: 80%;
+  font-size: 85%;
   text-align: right;
 }
 
 div.pagination {
   margin-top: var(--space-l);
-  font-size: 80%;
+  font-size: 85%;
 }
 
 code,
