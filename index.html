@@ -6,6 +6,17 @@
   <title>Cinemagoer — Welcome!</title>
   <link rel="shortcut icon" type="image/x-icon" href="static/images/imdbpyico16x16.ico">
   <link rel="stylesheet" href="static/main.css">
+  
+<link rel="stylesheet" href="static/highlight_dark.min.css">
+<script defer src="static/highlight.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelectorAll('pre code').forEach((el) => {
+          hljs.highlightElement(el);
+      });
+  });
+</script>
+
 </head>
 <body>
   <header>
@@ -77,8 +88,7 @@
 <section>
   <h3>Code example</h3>
   <pre>
-<code class="microlight">
-from imdb import IMDb
+<code class="language-python">from imdb import IMDb
 
 # create an instance of the IMDb class
 ia = IMDb()
@@ -99,8 +109,7 @@ ia.update(the_matrix, ['technical'])
 # show which keys were added by the information set
 print(the_matrix.infoset2keys['technical'])
 # print one of the new keys
-print(the_matrix.get('tech'))
-</code>
+print(the_matrix.get('tech'))</code>
   </pre>
 </section>
 
@@ -136,12 +145,10 @@ including unreleased changes.</p>
 </section>
 
 
-<script src="static/microlight.js"></script>
-
   </main>
 
   <footer>
-    <p>Website designed by <a href="https://albemala.me/">albemala</a></p>
+    <p><small>Website designed by <a href="https://albemala.me/">albemala</a></small></p>
     <div class="social">
       <a href="https://twitter.com/imdbpy" title="Twitter" target="_blank">
         <svg id="twitter" width="80" height="80" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
