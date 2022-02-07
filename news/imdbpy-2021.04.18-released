@@ -50,9 +50,9 @@
 
   <main>
     
-In the release 2021-04-18 (codename "Black Sails") of IMDbPY, multiple parsers were added and fixed. As always, IMDbPY is looking for developers; if you want to contribute, [contact us](https://lists.sourceforge.net/lists/listinfo/imdbpy-devel).
+<p>In the release 2021-04-18 (codename "Black Sails") of IMDbPY, multiple parsers were added and fixed. As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>.</p>
+<p>For more details see the <a href="https://imdbpy.readthedocs.io/en/latest/Changelog.html">latest changelog</a>, including unreleased changes.</p>
 
-For more details see the [latest changelog](https://imdbpy.readthedocs.io/en/latest/Changelog.html), including unreleased changes.
 
   </main>
 
