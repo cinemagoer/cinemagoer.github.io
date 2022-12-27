@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cinemagoer — News</title>
+  <title>Cinemagoer — Cinemagoer 2022.12.27</title>
   <link rel="shortcut icon" type="image/x-icon" href="../static/images/cinemagoerico16x16.ico">
   <link rel="stylesheet" href="../static/main.css">
   
@@ -50,100 +50,9 @@
 
   <main>
     
-
-
-
-
-<section>
-  <h2>News</h2>
-  
-    
-  <article>
-    <header>
-      <h3>Cinemagoer 2022.12.27</h3>
-      <time datetime="2022-12-27">Dec 27, 2022</time>
-    </header>
-    <p>qiA quick-fix release to avoid problems fetching web pages. Please notice that for the moment the person pages will return a very limited list of movies for each role; this will be fixed in the future.</p>
+<p>qiA quick-fix release to avoid problems fetching web pages. Please notice that for the moment the person pages will return a very limited list of movies for each role; this will be fixed in the future.</p>
 <p>For more details see the <a href="https://cinemagoer.readthedocs.io/en/latest/Changelog.html">latest changelog</a>,
 including unreleased changes.</p>
-
-  </article>
-
-  
-    
-  <article>
-    <header>
-      <h3>Cinemagoer 2022.12.04</h3>
-      <time datetime="2022-12-04">Dec 4, 2022</time>
-    </header>
-    <p>A lot of fixes for person and movie pages. Please notice that since now, the person pages will return a very limited list of movies for each role.</p>
-<p>For more details see the <a href="https://cinemagoer.readthedocs.io/en/latest/Changelog.html">latest changelog</a>,
-including unreleased changes.</p>
-
-  </article>
-
-  
-    
-  <article>
-    <header>
-      <h3>IMDbPY renamed to Cinemagoer</h3>
-      <time datetime="2022-01-25">Jan 25, 2022</time>
-    </header>
-    <p>New year, new name: after almost 18 years, we decided to change the name of the project: welcome Cinemagoer!</p>
-<p>For more details see the <a href="https://cinemagoer.readthedocs.io/en/latest/Changelog.html">latest changelog</a>,
-including unreleased changes.</p>
-
-  </article>
-
-  
-    
-  <article>
-    <header>
-      <h3>IMDbPY 2021-04-18 released</h3>
-      <time datetime="2021-04-18">Apr 18, 2021</time>
-    </header>
-    <p>In the release 2021-04-18 (codename "Black Sails") of IMDbPY, multiple parsers were added and fixed. As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>.</p>
-<p>For more details see the <a href="https://imdbpy.readthedocs.io/en/latest/Changelog.html">latest changelog</a>, including unreleased changes.</p>
-
-  </article>
-
-  
-    
-  <article>
-    <header>
-      <h3>IMDbPY 2020-09-25 released</h3>
-      <time datetime="2020-09-25">Sep 25, 2020</time>
-    </header>
-    <p>In the release 2020-09-25 (codename "The Umbrella Academy") of IMDbPY, multiple parsers were added and fixed. As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>.</p>
-<p>For more details See the <a href="https://imdbpy.readthedocs.io/en/latest/Changelog.html">latest changelog</a>, including unreleased changes.</p>
-
-  </article>
-
-  
-    
-  <article>
-    <header>
-      <h3>IMDbPY 6.8 released</h3>
-      <time datetime="2019-07-20">Jul 20, 2019</time>
-    </header>
-    <p>In the release 6.8 (codename "Apollo 11") of IMDbPY, multiple parsers were added and fixed; the new <code>search_movie_advanced</code> method allows advanced movie searches.</p>
-<p>As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>. <a href="https://github.com/alberanid/imdbpy/blob/master/docs/Changelog.rst">Changelog</a>.</p>
-
-  </article>
-
-  
-</section>
-
-
-  <div class="pagination">
-    
-      <span class="disabled">&laquo; Previous</span>
-    
-    | 1 |
-    
-      <span class="disabled">Next &raquo;</span>
-    
-  </div>
 
 
   </main>
