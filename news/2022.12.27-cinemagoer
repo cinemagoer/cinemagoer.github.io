@@ -50,7 +50,7 @@
 
   <main>
     
-<p>qiA quick-fix release to avoid problems fetching web pages. Please notice that for the moment the person pages will return a very limited list of movies for each role; this will be fixed in the future.</p>
+<p>A quick-fix release to avoid problems fetching web pages. Please notice that for the moment the person pages will return a very limited list of movies for each role; this will be fixed in the future.</p>
 <p>For more details see the <a href="https://cinemagoer.readthedocs.io/en/latest/Changelog.html">latest changelog</a>,
 including unreleased changes.</p>
 

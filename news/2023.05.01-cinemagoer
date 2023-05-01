@@ -3,20 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cinemagoer — Welcome!</title>
-  <link rel="shortcut icon" type="image/x-icon" href="static/images/cinemagoerico16x16.ico">
-  <link rel="stylesheet" href="static/main.css">
+  <title>Cinemagoer — Cinemagoer 2023.05.01</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../static/images/cinemagoerico16x16.ico">
+  <link rel="stylesheet" href="../static/main.css">
   
-<link rel="stylesheet" href="static/highlight_dark.min.css">
-<script defer src="static/highlight.min.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', (event) => {
-      document.querySelectorAll('pre code').forEach((el) => {
-          hljs.highlightElement(el);
-      });
-  });
-</script>
-
 </head>
 <body>
   <header>
@@ -30,28 +20,28 @@
     </a>
     <nav aria-label="main navigation">
       <ul role="list">
-        <li class="active">
-          <a id="logo" href="./">Cinemagoer</a>
+        <li class="">
+          <a id="logo" href="../">Cinemagoer</a>
         </li>
         
         
         <li>
-          <a href="downloads/">Downloads</a>
+          <a href="../downloads/">Downloads</a>
         </li>
         
         
         <li>
-          <a href="support/">Support</a>
+          <a href="../support/">Support</a>
         </li>
         
         
         <li>
-          <a href="development/">Development</a>
+          <a href="../development/">Development</a>
         </li>
         
         
         <li>
-          <a href="ecosystem/">Ecosystem</a>
+          <a href="../ecosystem/">Ecosystem</a>
         </li>
         
       </ul>
@@ -60,88 +50,9 @@
 
   <main>
     
-<section>
-  <h1>Cinemagoer (previously known as IMDbPY) is a Python package for retrieving and managing
-    the data of the IMDb movie database about movies and people.</h1>
-  <div class="buttons">
-    <a href="./downloads" class="button primary">Downloads</a>
-    <a href="https://cinemagoer.readthedocs.io/" class="button secondary">Read the Docs</a>
-  </div>
-  <ul>
-    <li>Platform-independent: written in pure Python 3, with a simple API.</li>
-    <li>Released under the terms of the
-      <a href="https://raw.githubusercontent.com/cinemagoer/cinemagoer/master/LICENSE.txt">GPL 2 license or later.</a></li>
-    <li>Cinemagoer is used by many other projects. <a href="./ecosystem">Curious about that?</a></li>
-  </ul>
-</section>
-
-<article>
-  <header>
-    <h3>Disclaimer</h3>
-  </header>
-  <div>
-    <p>This project and its authors are not affiliated in any way to Internet Movie Database Inc.; see the <a href="https://raw.githubusercontent.com/cinemagoer/cinemagoer/master/DISCLAIMER.txt">disclaimer</a> file for details about data licenses.</p>
-  </div>
-</article>
-
-<section>
-  <h3>Code example</h3>
-  <pre>
-<code class="language-python">from imdb import Cinemagoer
-
-# create an instance of the Cinemagoer class
-ia = Cinemagoer()
-
-# get a movie and print its director(s)
-the_matrix = ia.get_movie('0133093')
-for director in the_matrix['directors']:
-    print(director['name'])
-
-# show all information that are currently available for a movie
-print(sorted(the_matrix.keys()))
-
-# show all information sets that can be fetched for a movie
-print(ia.get_movie_infoset())
-
-# update a Movie object with more information
-ia.update(the_matrix, ['technical'])
-# show which keys were added by the information set
-print(the_matrix.infoset2keys['technical'])
-# print one of the new keys
-print(the_matrix.get('tech'))</code>
-  </pre>
-</section>
-
-<section>
-  <h2>How to contribute</h2>
-  <p>Do you like this project? You can help by:</p>
-  <ul>
-    <li>Spreading the word!</li>
-    <li><a href="/development/">Contributing to development.</a></li>
-  </ul>
-</section>
-
-
-
-
-<section>
-  <h2>News</h2>
-  
-    
-  <article>
-    <header>
-      <h3>Cinemagoer 2023.05.01</h3>
-      <time datetime="2023-05-01">May 1, 2023</time>
-    </header>
-    <p>A small release containing just few fixes to the parsers.</p>
+<p>A small release containing just few fixes to the parsers.</p>
 <p>For more details see the <a href="https://cinemagoer.readthedocs.io/en/latest/Changelog.html">latest changelog</a>,
 including unreleased changes.</p>
-
-  </article>
-
-  
-  <p class="more"><a href="/news/">All news...</a></p>
-</section>
 
 
   </main>
